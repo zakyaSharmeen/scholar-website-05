@@ -1,0 +1,127 @@
+
+#courses-section{
+    margin: 160px 0;
+    padding: 30px 0
+}
+.courses-section .main-container{
+    max-width: 1140px;
+    margin-right: 104px;
+    margin-left: 104px;
+    padding: 0 12px;
+    border: 1px solid rgb(235, 205, 205);
+}
+.gallery{
+	
+	background-color: black;
+	padding: 100px 0;
+}
+.gallery .gallery-filter {
+	padding: 0 15px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ 
+.gallery .gallery-filter .filter-item{
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	line-height: 1.2;
+	transition: all 0.3s ease;
+}
+
+.gallery .gallery-filter .filter-item.active{
+	color: orange;
+	border-color: orangered;
+
+}
+
+
+.gallery .gallery-item.show{
+	animation: fadeIn 0.5s ease;
+	display: block;
+}
+
+@keyframes fadeIn {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+	
+}
+.gallery .gallery-item.hide{
+	display: none;
+}
+
+
+
+
+
+
+
+
+.container-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    
+}
+
+	
+.card{
+    width: 356px;
+ 
+    background: green;
+    position: relative;
+    border-radius: 40px;
+
+
+}
+.card img{
+    border-radius: 40px;
+}
+.tag{
+    position: absolute;
+    top: 20px;
+    color: wheat;
+
+}
+
+.price{
+    position: absolute;
+    right: 0;
+    color: wheat;
+    background: red;
+    padding: 20px;
+    border-radius: 40px;
+}
+.content-description{
+    padding: 20px 35px;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+
+ 
+ .gallery-filter .filter-item{
+	color: black;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	line-height: 1.2;
+	transition: all 0.3s ease;
+}

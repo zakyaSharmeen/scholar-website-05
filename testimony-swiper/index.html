@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- swiper.js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- font-awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- banner -->
+    <section class="testimony-section" id="testimony-section">
+      <div class="main-container">
+        <div class="swiper mySwiperQuote">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="customer">
+                <div class="testimonial">
+                  <p>
+                    “Scholar is free website template provided by TemplateMo for
+                    educational related websites. This CSS layout is based on
+                    Bootstrap v5.3.0 framework.”
+                  </p>
+                  <div class="profile">
+                    <img
+                      src="../images/testimonial-author.jpg"
+                      alt="Stella Blair"
+                    />
+                    <div>
+                      <span class="name">Digital Animator</span>
+                      <h4 class="title">Stella Blair</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="customer">
+                <div class="testimonial">
+                  <p>
+                    “Scholar is free website template provided by TemplateMo for
+                    educational related websites. This CSS layout is based on
+                    Bootstrap v5.3.0 framework.”
+                  </p>
+                  <div class="profile">
+                    <img
+                      src="../images/testimonial-author.jpg"
+                      alt="Stella Blair"
+                    />
+                    <div>
+                      <span class="name">Digital Animator</span>
+                      <h4 class="title">Stella Blair</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="customer">
+                <div class="testimonial">
+                  <p>
+                    “Scholar is free website template provided by TemplateMo for
+                    educational related websites. This CSS layout is based on
+                    Bootstrap v5.3.0 framework.”
+                  </p>
+                  <div class="profile">
+                    <img
+                      src="../images/testimonial-author.jpg"
+                      alt="Stella Blair"
+                    />
+                    <div>
+                      <span class="name">Digital Animator</span>
+                      <h4 class="title">Stella Blair</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimony-section-heading">
+          <h6>TESTIMONIALS</h6>
+          <h2>
+            What They Say <br />
+            About Us?
+          </h2>
+
+          <p>
+            You can search free CSS templates on Google using different keywords
+            such as templatemo portfolio, templatemo gallery, templatemo blue
+            color, etc.
+          </p>
+        </div>
+      </div>
+
+      <div class="swiper-button-next swiper-button-next-quote"></div>
+      <div class="swiper-button-prev swiper-button-prev-quote"></div>
+    </section>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
+    <script>
+      var swiper = new Swiper(".mySwiperQuote ", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        grabCursor: false,
+        autoplay: {
+          delay: 2500,
+          disableOnInteration: false,
+          pauseOnMouseEnter: true,
+        },
+        slidesPerGroup: 1,
+        loop: false,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next-quote",
+          prevEl: ".swiper-button-prev-quote",
+        },
+      });
+    </script>
+  </body>
+</html>

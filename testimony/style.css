@@ -1,0 +1,107 @@
+.testimony-section{
+    position: relative;
+    padding: 80px 0px;
+    margin-top: 150px;
+
+}
+.testimony-section:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 65%;
+    height: 100%;
+    background-color: #f1f0fe;
+    content: '';
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+}
+.testimony-section .main-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 12px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.main-container .customer{
+    width: 50%;
+    height: 410px;
+    background-color: #7a6ad8;
+   
+
+}
+
+
+.customer .testimonial {
+    color: white;
+    border-radius: 25px;
+    padding: 80px;
+    text-align: left;
+    
+
+
+}
+.testimonial p {
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.profile div {
+    text-align: left;
+}
+.profile .name {
+    font-weight: bold;
+}
+.profile .title {
+    font-size: 14px;
+    opacity: 0.8;
+}
+.testimony-section .main-container .customer{
+    width: 60%;
+    border-radius: 25px;
+}
+
+
+.testimony-section .main-container .testimony-section-heading{
+    width: 40%;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+.testimony-section .main-container .testimony-section-heading h6{
+    color: #7a6ad8;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.testimony-section .main-container .testimony-section-heading h2{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 20px 0;
+    line-height: 44px;
+}
+
+.testimony-section .main-container .testimony-section-heading p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+    margin-top: 50px;
+}
